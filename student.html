@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="darkmodeStu.css">
+  <title>Student Management</title>
+</head>
+
+<body>
+  <style>
+  body {
+    background-image: url('https://i.pinimg.com/564x/bd/aa/07/bdaa078b959811fc5f56cd02512bb22c.jpg?fbclid=IwAR3Es2Lxg0tLdOrBvQsQaOuRnuFQ23lIOAYAO1k9gWOJk-SI_r7ulP_FRgc');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  </style>
+
+  <div class="studentData">
+    <form action="" id="form1">
+      <input type="text" placeholder="Name" id="name" required>
+      <input type="number" placeholder="Number" id="number" required>
+      <input type="text" placeholder="City" id="city" required>
+      <input type="number" placeholder="Student Number" id="StuNum" required>
+      <input type="submit" class="btn btn-warning">
+
+
+    </form>
+  </div>
+
+
+
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Number</th>
+        <th>City</th>
+        <th>Student Number</th>
+        <th>Attendance</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+
+    </tbody>
+  </table>
+  
+  <button id="removeAll" style="background-color: black; color: white; border-radius: 5px;">Remove All</button>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="./student.js"></script>
+  <script src="./updateDate.js"></script>
+  
+  
+  
+
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-image: url('hamster.png');
+  background-repeat: no-repeat;
+}
+
+.heading {
+  width: 100%;
+  background-color: #ce0d0d;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  padding: 40px;
+
+}
+
+#school {
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+
+/* --------------login form ----  */
+.login {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 400px;
+  grid-gap: 20px;
+  margin: 20px;
+
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.right {
+  background-color: rgb(255,255,255,.5);
+  border-radius: 20px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+
+
+}
+
+#form input {
+
+  padding: 12px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #255,255,255,.5;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  background-color: teal;
+  color: black;
+  border-radius: 5px;
+}
+
+
+.login_head {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 38px;
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+/* --------------student form -------------- */
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+
+
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+tr>th {
+  background-color: #ce0d0d;
+  color: white;
+}
+
+.studentData {
+  width: 100%;
+  background-color: ;
+  padding: 15px;
+
+}
+
+#form1 {
+  margin: auto;
+  width: 80%;
+
+}
+
+#form1 input {
+  padding: 10px;
+  margin-right: 15px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#form1 input:focus {
+  outline: none;
+}
+
+.td6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.td6>button {
+  margin-right: 10px;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+/* style.css */
+
+/* Target the Present button */
+#tbody tr td:nth-child(6) button:nth-child(1) {
+  background-color: green; /* Change to desired color for Present button */
+  color: white; /* Text color */
+}
+#tbody tr td:nth-child(6) button:nth-child(2) {
+background-color: #ce0d0d; /* Change to desired color for Absent button */
+color: white; /* Text color */
+
+
+}
+/* Target the Delete button */
+#tbody tr td:nth-child(6) button:nth-child(3) {
+  background-color: black; /* Change to desired color for Delete button */
+  color: white; /* Text color */
+}
+
+/* Additional styles for button appearance */
+#tbody tr td:nth-child(6) button {
+  border: none; /* Removes the default border */
+  padding: 5px 10px; /* Add some padding */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  margin-right: 5px; /* Optional: adds space between buttons */
+  border-radius: 5px; /* Optional: rounds the corners of the button */
+}
+
+
+
+tbody {
+  background-color: lightgrey;
+  color: black;
+}
